@@ -1,0 +1,530 @@
+body {
+	background-color: #7d7d7d;
+	background:  url(/image110131/leaves9.gif);
+}
+/*Работа с формой*/
+/*#form_priem_1 {
+		color: white;
+}*/
+#label_fio {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+	color: white;
+}
+#label_rai {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+	color: white;
+}
+#label_adr_prip {
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	color: white;
+}
+#grag_fio {
+	/*border: 2px solid #389F70;*/
+	border-radius: 7px;
+	text-decoration: none;
+	width: 450px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+}
+#grag_fio[type=text]::placeholder{color:#708090;font-style:italic}
+#grag_fio[type=text]::-moz-placeholder{color:#708090;font-style:italic}
+#grag_fio[type=text]:-moz-placeholder{color:#708090;font-style:italic}
+#grag_fio[type=text]:-ms-input-placeholder{color:#708090;font-style:italic}
+
+#form_adr_prip {
+	/*display: inline-block;*/
+	margin: -31px 0px 0px 231px;
+	position:absolute;
+}
+#form_numbsotr_prip {
+	/*display: inline-block;*/
+	margin: -31px 0px 0px 375px;
+	position:absolute;
+}
+#label_numbsotr_prip {
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	color: white;
+}
+#grag_numbsotr_dom {
+	border-radius: 7px;
+	text-decoration: none;
+	width: 30px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+}
+#grag_numbsotr_dom[type=text]::placeholder{color:#708090;font-style:italic}
+#grag_numbsotr_dom[type=text]::-moz-placeholder{color:#708090;font-style:italic}
+#grag_numbsotr_dom[type=text]:-moz-placeholder{color:#708090;font-style:italic}
+#grag_numbsotr_dom[type=text]:-ms-input-placeholder{color:#708090;font-style:italic}
+
+#grag_nom_dom {
+	border-radius: 7px;
+	text-decoration: none;
+	width: 30px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+}
+#grag_nom_dom[type=text]::placeholder{color:#708090;font-style:italic}
+#grag_nom_dom[type=text]::-moz-placeholder{color:#708090;font-style:italic}
+#grag_nom_dom[type=text]:-moz-placeholder{color:#708090;font-style:italic}
+#grag_nom_dom[type=text]:-ms-input-placeholder{color:#708090;font-style:italic}
+#grag_nom_korp {
+	border-radius: 7px;
+	text-decoration: none;
+	width: 30px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+}
+#grag_nom_korp[type=text]::placeholder{color:#708090;font-style:italic}
+#grag_nom_korp[type=text]::-moz-placeholder{color:#708090;font-style:italic}
+#grag_nom_korp[type=text]:-moz-placeholder{color:#708090;font-style:italic}
+#grag_nom_korp[type=text]:-ms-input-placeholder{color:#708090;font-style:italic}
+#grag_nom_kvart {
+	border-radius: 7px;
+	text-decoration: none;
+	width: 30px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+}
+#grag_nom_kvart[type=text]::placeholder{color:#708090;font-style:italic}
+#grag_nom_kvart[type=text]::-moz-placeholder{color:#708090;font-style:italic}
+#grag_nom_kvart[type=text]:-moz-placeholder{color:#708090;font-style:italic}
+#grag_nom_kvart[type=text]:-ms-input-placeholder{color:#708090;font-style:italic}
+/*#grag_adr {*/
+	/*border: 2px solid #389F70;*/
+	/*border-radius: 7px;
+	text-decoration: none;
+	width: 450px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+}
+#grag_adr[type=text]::placeholder{color:#ccc;font-style:italic}
+#grag_adr[type=text]::-moz-placeholder{color:#ccc;font-style:italic}
+#grag_adr[type=text]:-moz-placeholder{color:#ccc;font-style:italic}
+#grag_adr[type=text]:-ms-input-placeholder{color:#ccc;font-style:italic}*/
+/*#form_priem_1 select {
+	border: 2px solid #389F70;
+	border-radius: 7px;
+	width: 1px;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+	color: black;
+	
+}*/
+/*конец Работа с формой*/
+/*кнопка на форме*/
+#button_1 {
+	border-radius: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0;
+	margin-top: 10px;
+	margin-left:5px;
+	border-color: #389F70;
+}
+#button_2 {
+	border-radius: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	border-color: #389F70;
+}
+/*конец кнопка на форме*/
+/*Стиль результата*/
+#result_save {
+	color: white;
+	margin-top: 10px;
+	margin-left:5px;
+	font-size: 22px;
+	font-family: 'Times New Roman';
+	/*background-color: green;*/
+	width: 455px;
+	border-radius: 7px;
+	background: rgba(119, 221, 119, 0.5);
+	text-align: center;
+	position: fixed;
+}
+
+/*Конец Стиль результата*/
+/*Стиль таблицы регистраций на первой форме*/
+#table_reg {
+
+}
+#refresh_table {
+	float: right;
+	margin-top: -40px;
+}
+#iframe_form_1 {
+	/*border: 5px double black;*/
+    padding: 0;
+    margin: -20px 0% 0% 0%;
+	height:calc(100vh - 380px);
+	width: calc(100vw - 25px);
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 3;
+
+}
+#iframe_form_1 iframe {
+	width: 100%;
+	height: 100%;
+	border-radius: 0px 0px 7px 7px;
+	border-width: 5px;
+	border-color: #262626;
+    border-style: solid;
+}
+/*Конец Стиль таблицы регистраций на первой форме*/
+/*Форма смены пароля*/
+#form_repass {
+	position:absolute;
+	left:50%;
+    top:50%;
+	margin-left:-150px;
+    margin-top:-150px;
+	border: 4px solid #b3b3b3;
+	width: 260px;
+	color: white;
+	background:#2e2e2e;
+	border-radius: 7px;
+}
+#form_repass label {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+
+}
+#form_repass input {
+	border: 4px solid black;
+	border-radius: 7px;
+	text-decoration: none;
+	width: 250px;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+}
+#button_1_repass {
+	position:absolute;
+	left:50%;
+    top:50%;
+	margin-left: -141px;
+    margin-top: 105px;
+	border-radius: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	border-color: #389F70;
+}
+#button_2_repass {
+	position:absolute;
+	left:50%;
+    top:50%;
+	margin-left: -12px;
+    margin-top: 105px;
+	border-radius: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	border-color: #389F70;
+}
+#body_repass {
+	background-color: #3b3b3b;
+	position: absolute;
+	/*z-index: 22;*/
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	top:0px;
+	left: 0px;
+}
+#result_repass {
+	color: white;
+	position:absolute;
+	left:50%;
+    top:50%;
+	margin-left: -245px;
+    margin-top: 150px;
+	font-size: 22px;
+	font-family: 'Times New Roman';
+	width: 455px;
+	border-radius: 7px;
+	background: rgba(119, 221, 119, 0.4);
+	text-align: center;
+}
+/*Конец Форма смены пароля*/
+/*Работа с формой_2*/
+#form_priem_2 {
+	color: white;
+	margin: -40px, 0px, 0px, 0px;
+}
+#priem_2_searchdate {
+	/*border: 2px solid #389F70;*/
+	border-radius: 7px;
+	text-decoration: none;
+	width: 155px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+/*	margin: 0px 0px 0px 40px;*/
+}
+#priem_2_searchdate_2 {
+	/*border: 2px solid #389F70;*/
+	border-radius: 7px;
+	text-decoration: none;
+	width: 155px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+
+}
+#form_priem_2 label {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+}
+#priem_2_fio_grag {
+	/*border: 2px solid #389F70;*/
+	border-radius: 7px;
+	text-decoration: none;
+	width: 350px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+/*	margin: 0px 0px 0px 40px;*/
+}
+#priem_2_fio_grag[type=text]::placeholder{color:#708090;font-style:italic}
+#priem_2_fio_grag[type=text]::-moz-placeholder{color:#708090;font-style:italic}
+#priem_2_fio_grag[type=text]:-moz-placeholder{color:#708090;font-style:italic}
+#priem_2_fio_grag[type=text]:-ms-input-placeholder{color:#708090;font-style:italic}
+
+#priem_2_adr_grag {
+	/*border: 2px solid black;*/
+	border-radius: 7px;
+	text-decoration: none;
+	width: 350px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+/*	margin: 0px 0px 0px 40px;*/
+}
+#priem_2_adr_grag[type=text]::placeholder{color:#708090;font-style:italic}
+#priem_2_adr_grag[type=text]::-moz-placeholder{color:#708090;font-style:italic}
+#priem_2_adr_grag[type=text]:-moz-placeholder{color:#708090;font-style:italic}
+#priem_2_adr_grag[type=text]:-ms-input-placeholder{color:#708090;font-style:italic}
+/*#priem_2_fio_sotr {
+	border: 2px solid #389F70;
+	border-radius: 7px;
+	text-decoration: none;
+	width: 350px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	margin: 0px 0px 0px 40px;
+}*/
+#label_fio_sotr {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+	color: white;
+}
+#label_type_vipl {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+	color: white;
+}
+#button_1_priem_2 {
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0;
+	margin-top: 10px;
+	margin-left:5px;
+	width: 90px;
+	border-color: #389F70;
+	height: 25px;
+}
+#button_2_priem_2 {
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: bold;
+	border-color: #389F70;
+	height: 25px;
+}
+#form_priem_2 select {
+	border: 2px solid #389F70;
+	border-radius: 7px;
+	width: 357px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	margin: 0px 0px 0px 40px;
+}
+#iframe_form_2 {
+	/*border: 5px double black;*/
+   /* padding: 0;
+    margin: -10px 0% 0% 0%;
+	height:calc(100vh - 355px);
+	width: calc(100vw - 33px);
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 3;
+	background-color: white;
+	border-radius: 20px;
+	border: 6px solid black;*/
+	background-color: white;
+}
+#help_date_search {
+	position:absolute;
+	left:380px;
+    top:95px;
+}
+#button_delete_priem_2 {
+	padding: 0;
+	border: 1px double black;
+	background-color: #E0FFFF;
+}
+#result_save_form_2 {
+	color: white;
+	font-size: 22px;
+	font-family: 'Times New Roman';
+	border-radius: 7px;
+	text-align: center;
+}
+/*конец Работа с формой_2*/
+/*Всплывающая форма*/
+#insertContainer {
+	width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.6);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+#insertForm {
+	margin: 5% auto 0px auto;
+    width:500px;
+    height: 400px;
+    padding:10px;
+    background-color: #525252;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px #000;
+	border-color: #389F70;
+	border:4px double black;
+}
+#label_reg_numb {
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	color: white;
+}
+#label_sotr_name {
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	color: white;
+}
+#form_grag_fio {
+	/*border: 2px solid #389F70;*/
+	border-radius: 7px;
+	text-decoration: none;
+	width: 450px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+}
+#form_grag_fio[type=text]::placeholder{color:#708090;font-style:italic}
+#form_grag_fio[type=text]::-moz-placeholder{color:#708090;font-style:italic}
+#form_grag_fio[type=text]:-moz-placeholder{color:#708090;font-style:italic}
+#form_grag_fio[type=text]:-ms-input-placeholder{color:#708090;font-style:italic}
+#form_grag_nom_dom {
+	border-radius: 7px;
+	text-decoration: none;
+	width: 30px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+}
+#form_grag_nom_dom[type=text]::placeholder{color:#708090;font-style:italic}
+#form_grag_nom_dom[type=text]::-moz-placeholder{color:#708090;font-style:italic}
+#form_grag_nom_dom[type=text]:-moz-placeholder{color:#708090;font-style:italic}
+#form_grag_nom_dom[type=text]:-ms-input-placeholder{color:#708090;font-style:italic}
+#form_grag_nom_korp {
+	border-radius: 7px;
+	text-decoration: none;
+	width: 30px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+}
+#form_grag_nom_korp[type=text]::placeholder{color:#708090;font-style:italic}
+#form_grag_nom_korp[type=text]::-moz-placeholder{color:#708090;font-style:italic}
+#form_grag_nom_korp[type=text]:-moz-placeholder{color:#708090;font-style:italic}
+#form_grag_nom_korp[type=text]:-ms-input-placeholder{color:#708090;font-style:italic}
+#form_grag_nom_kvart {
+	border-radius: 7px;
+	text-decoration: none;
+	width: 30px;
+	height: 26px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	padding-left: 8px;
+}
+#form_grag_nom_kvart[type=text]::placeholder{color:#708090;font-style:italic}
+#form_grag_nom_kvart[type=text]::-moz-placeholder{color:#708090;font-style:italic}
+#form_grag_nom_kvart[type=text]:-moz-placeholder{color:#708090;font-style:italic}
+#form_grag_nom_kvart[type=text]:-ms-input-placeholder{color:#708090;font-style:italic}
+
+#form_button_4_priem_2 {
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: bold;
+	border-color: #389F70;
+	height: 25px;
+	color: green;
+}
+#form_button_5_priem_2 {
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: bold;
+	border-color: #389F70;
+	height: 25px;
+}
+#form_button_6_priem_2 {
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: bold;
+	border-color: #389F70;
+	height: 25px;
+	color: red;
+}
+#form_button_7_priem_2 {
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: bold;
+	border-color: #389F70;
+	height: 25px;
+	color: orange;
+}
+/*Конец Всплывающая форма*/
